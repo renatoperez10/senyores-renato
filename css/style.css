@@ -1,3 +1,28 @@
+
+/* Global */
+
+* {
+  box-sizing: box;
+  margin: 0;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+/* Media Queries */
+@media (min-width: 1199px) {
+  .contenedor {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1999px) {
+  .contenedor {
+    width: 1140px;
+  }
+}
+
+.contenedor {
+  padding: 0px 15px;
 }
