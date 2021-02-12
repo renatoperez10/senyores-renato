@@ -1,9 +1,9 @@
 
 /* Global */
-
 * {
   box-sizing: box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,7 +12,10 @@ body {
 
 /* Contenedor */
 .contenedor {
+  background-color: rgba(125, 236, 171, .3);
   padding: 0px 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 1199px) and (min-width: 0px) {
@@ -21,13 +24,16 @@ body {
   }
 }
 
-@media screen and (max-width: 1999px) and (min-width: 1200px) {
+@media screen and (max-width: 2200px) and (min-width: 1200px) {
   .contenedor {
     width: 1140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px 0px ;
 }
 
 /* Enlace */
@@ -37,5 +43,24 @@ body {
   color: black;
 }
 
+/* Cards */
+.card-general {
+  text-align: center;
+  background-color: blue;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 799px) {
+  .card-general {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 2200px) {
+  .card-general {
+    width: 80%;
+  }
+}
 
 
