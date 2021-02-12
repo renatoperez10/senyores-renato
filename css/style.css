@@ -10,19 +10,25 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Media Queries */
-@media (min-width: 1199px) {
-  .contenedor {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1999px) {
-  .contenedor {
-    width: 1140px;
-  }
-}
-
+/* Contenedor */
 .contenedor {
   padding: 0px 15px;
 }
+
+@media screen and (max-width: 1199px) and (min-width: 0px) {
+  .contenedor {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1999px) and (min-width: 1200px) {
+  .contenedor {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
