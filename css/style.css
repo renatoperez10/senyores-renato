@@ -30,5 +30,12 @@ body {
   }
 }
 
+/* Enlace */
+.marcar-todos {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
 
 
